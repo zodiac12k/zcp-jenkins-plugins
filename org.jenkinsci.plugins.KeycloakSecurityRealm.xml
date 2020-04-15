@@ -1,0 +1,16 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jenkinsci.plugins.KeycloakSecurityRealm_-DescriptorImpl plugin="keycloak@2.2.0">
+  <keycloakJson>{
+  &quot;realm&quot;: &quot;zcp&quot;,
+  &quot;auth-server-url&quot;: &quot;https://openshift-iam.cloudzcp.io/auth&quot;,
+  &quot;ssl-required&quot;: &quot;external&quot;,
+  &quot;resource&quot;: &quot;devops&quot;,
+  &quot;credentials&quot;: {
+    &quot;secret&quot;: &quot;ebcbe083-565e-48a2-94b0-2ec4c45c0eff&quot;
+  },
+  &quot;confidential-port&quot;: 0
+}</keycloakJson>
+  <keycloakIdp></keycloakIdp>
+  <keycloakValidate>false</keycloakValidate>
+  <keycloakRespectAccessTokenTimeout>true</keycloakRespectAccessTokenTimeout>
+</org.jenkinsci.plugins.KeycloakSecurityRealm_-DescriptorImpl>
